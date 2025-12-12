@@ -1,7 +1,7 @@
 name: Literals
 on: push
 jobs:
-  runs-on: ubuntu-latet
+  runs-on: ubuntu-latest
   steps:
     - run: printenv | grep 'LITERAL_'
       env:
